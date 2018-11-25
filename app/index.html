@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Credit Card Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper-form"></div>
+        <div class="form">
+            <div class="form-container">
+                <h3 class="form-container__header">Total</h3>
+                <p class="form-container__price">$898</p>
+                <div class="form-container__detail">
+                    <h3 class="form-container__header">Detail</h3>
+                    <div class="form-detail">
+                        <p class="form-detail__item">iPad pro</p>
+                        <p class="form-detail__price">$799</p>
+                    </div>
+                    <div class="form-detail">
+                        <p class="form-detail__item">Apple pencil</p>
+                        <p class="form-detail__price">$99</p>
+                    </div>
+                    <button class="btn">pay now</button> 
+                </div>
+            </div>       
+        </div>    
+        <div class="credit-card">
+            <div class="credit-card__wrapper">
+                <div class="credit-card__wrapper-logo">
+                <span class="credit-card__wrapper-logo-visa">
+                    <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                </span>    
+                    <p class="credit-card__wrapper-title">Carly Ling</p>
+                </div>
+                <div class="credit-card__number">
+                    <label for="card-number">Credit Card Number</label>
+                    <input type="text" name="" id="card-number" required class="card-number" name="cardnumber" pattern="[0-9]*" placeholder="4514 6188 1234 5678" maxlength="16">
+                </div>
+                <div class="credit-card__date">
+                    <div class="credit-card__date-exp">
+                        <label for="expdate">Expiration</label>
+                        <input type="text" id="expdate" class="expdate" required name="expdate" placeholder="January  2018">
+                    </div>
+                    <div class="credit-card__date-cvv">
+                        <label for="card-cvv">CCV</label>
+                        <input type="text" id="card-cvv" required class="card-cvv" pattern="[0-9]*" maxlength="3" placeholder="983">
+                    </div>
+            </div>
+        </div> 
+    </div>
+</body> 
+</html>
