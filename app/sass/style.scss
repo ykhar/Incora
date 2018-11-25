@@ -66,10 +66,10 @@ $robotoFamily: 'Roboto', sans-serif;
                         margin-bottom: 40px;
                     }
                     &__item {
-                        color: grey;
+                        color: $colorHeader;
                     }
                     &__price {
-                        color: #0c84fc;
+                        color: $contentBackground;
                     }
                 }
                 .btn {
@@ -82,6 +82,10 @@ $robotoFamily: 'Roboto', sans-serif;
                     text-transform: uppercase;
                     cursor: pointer;
                     outline: none;
+                    &:hover {
+                        background-color: $cardColor;
+                        color: $colorContent;
+                    }
                 }
             }
         }
